@@ -1,0 +1,129 @@
+﻿生成启动时间为 2015/4/19 星期日 23:20:23。
+     1>项目“E:\c++project\MyLib\prj\Test\Test.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Test.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /I..\..\inc /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\main.cpp
+         main.cpp
+     1>e:\c++project\mylib\src\main.cpp(36): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“MyLib::CBiSortTree<T>::visitType”
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\src\main.cpp(99): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“MyLib::CAVL<T>::visitType”
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cbisorttree.h(50): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“MyLib::CBiSortTree<T>::visitType”
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\c++project\mylib\inc\cbisorttree.h(44): 编译类 模板 成员函数“MyLib::CBiSortTree<T>::~CBiSortTree(void)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\c++project\mylib\src\main.cpp(22): 参见对正在编译的类 模板 实例化“MyLib::CBiSortTree<T>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cbisorttree.h(229): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“MyLib::CBiSortTree<T>::visitType”
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\c++project\mylib\inc\cbisorttree.h(222): 编译类 模板 成员函数“void MyLib::CBiSortTree<T>::OrderVisit(std::tr1::function<_Fty>,MyLib::CBiSortTree<T>::visitType)”时
+                 with
+                 [
+                     T=int,
+                     _Fty=void (MyLib::CBiSortTree<int>::BiTNode *&)
+                 ]
+     1>e:\c++project\mylib\inc\cbisorttree.h(232): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“MyLib::CBiSortTree<T>::visitType”
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cbisorttree.h(235): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“MyLib::CBiSortTree<T>::visitType”
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cavl.h(258): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“MyLib::CAVL<T>::visitType”
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\c++project\mylib\inc\cavl.h(251): 编译类 模板 成员函数“void MyLib::CAVL<T>::OrderVisit(std::tr1::function<_Fty>,MyLib::CAVL<T>::visitType)”时
+                 with
+                 [
+                     T=int,
+                     _Fty=void (MyLib::CAVL<int>::AVLNode *&)
+                 ]
+                 e:\c++project\mylib\src\main.cpp(88): 参见对正在编译的类 模板 实例化“MyLib::CAVL<T>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cavl.h(261): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“MyLib::CAVL<T>::visitType”
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cavl.h(264): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“MyLib::CAVL<T>::visitType”
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cvector.h(244): warning C4018: “<”: 有符号/无符号不匹配
+                 e:\c++project\mylib\inc\cvector.h(231): 编译类 模板 成员函数“void MyLib::CVector<T>::_CheckCapacity(size_t)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\c++project\mylib\src\main.cpp(75): 参见对正在编译的类 模板 实例化“MyLib::CVector<T>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cvector.h(135): warning C4018: “>=”: 有符号/无符号不匹配
+                 e:\c++project\mylib\inc\cvector.h(134): 编译类 模板 成员函数“bool MyLib::CVector<T>::CVectorIterator::IsDone(void)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\c++project\mylib\inc\cvector.h(196): 参见对正在编译的类 模板 实例化“MyLib::CVector<T>::CVectorIterator”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\c++project\mylib\inc\cvector.h(195): 编译类 模板 成员函数“CIterator *MyLib::CVector<T>::Create(void)”时
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cvector.h(87): warning C4018: “<”: 有符号/无符号不匹配
+                 e:\c++project\mylib\inc\cvector.h(85): 编译类 模板 成员函数“int MyLib::CVector<T>::Get(int)”时
+                 with
+                 [
+                     T=int
+                 ]
+     1>e:\c++project\mylib\inc\cbisorttree.h(113): warning C4715: “MyLib::CBiSortTree<int>::Search”: 不是所有的控件路径都返回值
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\c++project\MyLib\prj\StrLib\\..\..\bin\Testd.exe" /NOLOGO /LIBPATH:..\..\lib MyLibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Testd.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\c++project\MyLib\bin\Testd.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\c++project\MyLib\prj\StrLib\\..\..\bin\Testd.lib" /MACHINE:X86 Debug\main.obj
+         LINK : 没有找到 E:\c++project\MyLib\prj\StrLib\\..\..\bin\Testd.exe 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 E:\c++project\MyLib\prj\StrLib\\..\..\bin\Testd.lib 和对象 E:\c++project\MyLib\prj\StrLib\\..\..\bin\Testd.exp
+         Test.vcxproj -> E:\c++project\MyLib\prj\StrLib\\..\..\bin\Testd.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\c++project\MyLib\prj\StrLib\\..\..\bin\Testd.exe;#1" /manifest Debug\Testd.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Test.unsuccessfulbuild”。
+         正在对“Debug\Test.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\c++project\MyLib\prj\Test\Test.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.86

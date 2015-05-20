@@ -1,0 +1,21 @@
+﻿生成启动时间为 2015-3-27 17:15:47。
+     1>项目“C:\Documents and Settings\Administrator\桌面\MyLib\prj\StrLib\StrLib.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\StrLib.lastbuildstate”。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+       InitializeBuildStatus:
+         正在创建“Release\StrLib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\StrLib.cpp
+         StrLib.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\Administrator\桌面\MyLib\prj\StrLib\\..\..\lib\StrLib.lib" /NOLOGO /LTCG Release\StrLib.obj
+         StrLib.vcxproj -> C:\Documents and Settings\Administrator\桌面\MyLib\prj\StrLib\\..\..\lib\StrLib.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\StrLib.unsuccessfulbuild”。
+         正在对“Release\StrLib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Documents and Settings\Administrator\桌面\MyLib\prj\StrLib\StrLib.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.40
